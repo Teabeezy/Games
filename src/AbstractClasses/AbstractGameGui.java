@@ -4,12 +4,12 @@ import javax.swing.*;
 
 public abstract class AbstractGameGui extends JPanel {
     private JFrame parent;
+    private GameInterface game;
     public AbstractGameGui(JFrame parent) {
         super();
         parent.setSize(getGameWidth(),getGameHeight());
         this.parent = parent;
         setUp();
-
     }
 
     protected JFrame GetParent(){

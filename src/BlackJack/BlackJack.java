@@ -1,4 +1,4 @@
 package BlackJack;
-
-public class BlackJack {
+import AbstractClasses.*;
+public class BlackJack implements GameInterface{
 }

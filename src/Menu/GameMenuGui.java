@@ -1,6 +1,6 @@
 package Menu;
 
-import AbstractClasses.AbstractGameGui;
+import GameUtil.AbstractGameGui;
 import BlackJack.BlackJackGui;
 import Checkers.CheckersGui;
 import TicTacToe.TicTacToeGui;

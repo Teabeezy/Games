@@ -1,6 +1,6 @@
 package War;
 
-import AbstractClasses.AbstractGameGui;
+import GameUtil.AbstractGameGui;
 
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package AbstractClasses;
+package GameUtil;
 
 public interface GameInterface {
 }

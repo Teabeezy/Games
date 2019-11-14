@@ -1,6 +1,6 @@
 package TicTacToe;
 
-import AbstractClasses.GameInterface;
+import GameUtil.*;
 
 public class TicTacToe implements GameInterface {
 }

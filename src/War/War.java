@@ -1,6 +1,6 @@
 package War;
 
-import AbstractClasses.GameInterface;
+import GameUtil.*;
 
 public class War implements GameInterface {
 }

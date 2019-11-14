@@ -1,5 +1,5 @@
 package TicTacToe;
-import AbstractClasses.AbstractGameGui;
+import GameUtil.AbstractGameGui;
 import javax.swing.*;
 
 public class TicTacToeGui extends AbstractGameGui {

@@ -1,4 +1,4 @@
-import AbstractClasses.AbstractGameGui;
+import GameUtil.AbstractGameGui;
 import Menu.GameMenuGui;
 import javax.swing.*;
 import java.awt.*;

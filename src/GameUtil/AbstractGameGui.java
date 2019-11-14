@@ -1,4 +1,5 @@
-package AbstractClasses;
+package GameUtil;
+
 import Menu.GameMenuGui;
 import javax.swing.*;
 

@@ -1,6 +1,6 @@
 package Checkers;
 
-import AbstractClasses.GameInterface;
+import GameUtil.*;
 
 public class Checkers implements GameInterface {
 }

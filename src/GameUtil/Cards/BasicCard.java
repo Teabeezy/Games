@@ -18,4 +18,7 @@ public class BasicCard {
         this.faceCard = false;
         this.face = null;
     }
+    public void setValue(int newVal){
+        value = newVal;
+    }
 }

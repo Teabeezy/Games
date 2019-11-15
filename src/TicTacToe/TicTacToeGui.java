@@ -1,6 +1,9 @@
 package TicTacToe;
+
 import GameUtil.AbstractGameGui;
+
 import javax.swing.*;
+import java.awt.*;
 
 public class TicTacToeGui extends AbstractGameGui {
     private final int WIDTH = 250;
@@ -8,6 +11,7 @@ public class TicTacToeGui extends AbstractGameGui {
 
     public TicTacToeGui(JFrame parent) {
         super(parent);
+        parent.add(this);
     }
 
     @Override
@@ -22,6 +26,13 @@ public class TicTacToeGui extends AbstractGameGui {
 
     @Override
     protected void setUp() {
-        //Build Gui Here
+        setLayout(new GridLayout(3,3));
+        for(int i = 1; i<=9; i++){
+            add(new TicTacToeTile(i));
+        }
+
     }
+
+
+
 }

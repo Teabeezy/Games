@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Games extends JFrame implements ActionListener {
-    AbstractGameGui currentPanel;
+    public AbstractGameGui currentPanel;
     public Games(){
         super("Games");
         setDefaultCloseOperation(EXIT_ON_CLOSE);

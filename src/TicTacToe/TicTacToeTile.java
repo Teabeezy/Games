@@ -1,6 +1,8 @@
 package TicTacToe;
 
 import javax.swing.*;
+import javax.swing.border.BevelBorder;
+import java.awt.*;
 import java.util.ArrayList;
 
 public class TicTacToeTile extends JPanel {
@@ -10,12 +12,12 @@ public class TicTacToeTile extends JPanel {
     private boolean reserved;
     private int position;
     public TicTacToeTile(int position){
-        super();
+        super(new BorderLayout());
 
-
-        add(tileButton);
+        tileButton = new JLabel(" ");
+        setBorder(new BevelBorder(1));
+        add(tileButton, BorderLayout.CENTER);
         reserved= false;
-        directions = new ArrayList<TicTacToeTile>();
         this.position = position;
     }
     public void setText(String text){

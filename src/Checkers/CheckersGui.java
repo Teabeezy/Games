@@ -9,8 +9,7 @@ public class CheckersGui extends AbstractGameGui {
     private final int HEIGHT = 500;
 
     public CheckersGui(JFrame parent) {
-        super(parent);
-        parent.add(this,BorderLayout.CENTER);
+        super(parent, new Checkers());
     }
 
     @Override

@@ -16,6 +16,10 @@ public class TicTacToe implements GameInterface {
     }
 
 
+    @Override
+    public Player getCurrPlayer() {
+        return curr;
+    }
 
     @Override
     public void addPlayer(Player newPlayer) {
@@ -23,6 +27,7 @@ public class TicTacToe implements GameInterface {
             x= newPlayer;
         else
             o=newPlayer;
+        curr=o;
 
     }
     String getCurrPlayerText(){

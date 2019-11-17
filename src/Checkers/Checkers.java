@@ -12,6 +12,11 @@ public class Checkers implements GameInterface{
     }
 
     @Override
+    public Player getCurrPlayer() {
+        return null;
+    }
+
+    @Override
     public void addPlayer(Player newPlayer) {
 
     }

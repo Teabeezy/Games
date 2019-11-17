@@ -12,6 +12,11 @@ public class BlackJack implements GameInterface{
     }
 
     @Override
+    public Player getCurrPlayer() {
+        return null;
+    }
+
+    @Override
     public void addPlayer(Player newPlayer) {
 
     }

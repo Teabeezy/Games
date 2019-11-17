@@ -7,6 +7,7 @@ public interface GameInterface {
         }
         gameOver();
     }
+    Player getCurrPlayer();
     void addPlayer(Player newPlayer);
     void nextPlayerTurn();
     Boolean gameWon();

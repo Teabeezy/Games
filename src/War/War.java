@@ -13,6 +13,11 @@ public class War  implements GameInterface{
     }
 
     @Override
+    public Player getCurrPlayer() {
+        return null;
+    }
+
+    @Override
     public void addPlayer(Player newPlayer) {
 
     }

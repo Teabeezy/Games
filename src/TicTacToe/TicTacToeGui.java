@@ -15,8 +15,10 @@ public class TicTacToeGui extends AbstractGameGui {
     public TicTacToeGui(JFrame parent) {
         super(parent,new TicTacToe());
         addPlayers();
-        currPlayerLabel = new JLabel("'s turn");
+        currPlayerLabel = new JLabel(getGame().getCurrPlayer().getName()+"'s turn");
         parent.getJMenuBar().add(currPlayerLabel);
+        revalidate();
+        repaint();
 
     }
 
@@ -47,6 +49,7 @@ public class TicTacToeGui extends AbstractGameGui {
             TicTacToeTile tile = (TicTacToeTile)e.getSource();
             TicTacToe temp = (TicTacToe) getGame();
             tile.setText(temp.getCurrPlayerText());
+            currPlayerLabel.setText(temp.getCurrPlayer().getName()+"'s Turn");
 
         }
     }

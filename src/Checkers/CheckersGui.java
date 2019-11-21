@@ -50,7 +50,6 @@ public class CheckersGui extends AbstractGameGui {
 
         }
 
-
         repaint();
     }
 }

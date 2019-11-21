@@ -14,7 +14,8 @@ public class TicTacToeTile extends JPanel {
     public TicTacToeTile(int position){
         super(new BorderLayout());
 
-        tileButton = new JLabel(" ");
+        tileButton = new JLabel(" ", SwingConstants.CENTER);
+        tileButton.setFont(new Font(Font.SERIF, Font.BOLD,50 ));
         setBorder(new BevelBorder(1));
         add(tileButton, BorderLayout.CENTER);
         reserved= false;

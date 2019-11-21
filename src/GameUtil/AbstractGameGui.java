@@ -14,6 +14,8 @@ public abstract class AbstractGameGui extends JPanel {
         parent.setSize(getGameWidth(),getGameHeight());
         if(game != null)
             this.game = game;
+        if(parent.getJMenuBar().getMenuCount()>1)
+            parent.getJMenuBar().remove(1);
         setUp();
         parent.setContentPane(this);
         setVisible(true);

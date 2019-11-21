@@ -1,4 +1,6 @@
 package BlackJack;
 
-public class BlackJackDeck {
+public class BlackJackDeck
+{
+
 }

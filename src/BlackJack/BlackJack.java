@@ -2,43 +2,58 @@ package BlackJack;
 
 import GameUtil.*;
 
-public class BlackJack implements GameInterface{
-    public BlackJack() {
-    }
+public class BlackJack implements GameInterface
+{
+	public BlackJack()
+	{
 
-    @Override
-    public void play() {
+	}
 
-    }
+	@Override
+	public void play()
+	{
 
-    @Override
-    public Player getCurrPlayer() {
-        return null;
-    }
+	}
 
-    @Override
-    public void addPlayer(Player newPlayer) {
+	@Override
+	public GameUtil.Player getCurrPlayer()
+	{
+		return null;
+	}
 
-    }
+	@Override
+	public void addPlayer (GameUtil.Player newPlayer)
+	{
 
+	}
 
-    @Override
-    public void nextPlayerTurn() {
+	@Override
+	public void addPlayer(Player newPlayer)
+	{
 
-    }
+	}
 
-    @Override
-    public Boolean gameWon() {
-        return null;
-    }
+	@Override
+	public void nextPlayerTurn()
+	{
 
-    @Override
-    public int getNumPlayers() {
-        return 0;
-    }
+	}
 
-    @Override
-    public void gameOver() {
+	@Override
+	public Boolean gameWon()
+	{
+		return null;
+	}
 
-    }
+	@Override
+	public int getNumPlayers()
+	{
+		return 0;
+	}
+
+	@Override
+	public void gameOver()
+	{
+
+	}
 }
